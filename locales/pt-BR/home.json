@@ -1,0 +1,8 @@
+{
+    "title": "Inicial",
+    "description": "Essa é a tela de inicial estilizada com Tailwind.",
+    "currentLocale": "Localidade atual: {{locale}}",
+    "defaultLocale": "Localidade padrão: {{defaultLocale}}",
+    "currentTheme": "Tema atual: {{theme}}",
+    "changeTheme": "Mudar Tema"
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Home",
+    "description": "This is the home screen styled with Tailwind.",
+    "currentLocale": "Current locale: {{locale}}",
+    "defaultLocale": "Default locale: {{defaultLocale}}",
+    "currentTheme": "Current theme: {{theme}}",
+    "changeTheme": "Change Theme"
+}
