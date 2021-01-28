@@ -12,13 +12,16 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      typescript: {},
+    },
   },
   env: {
     browser: true,
     es6: true,
     node: true,
   },
-  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'prettier'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'prettier'],
   extends: [
     'airbnb',
     'airbnb/hooks',
@@ -26,6 +29,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
     'plugin:react-hooks/recommended',
     'prettier',
